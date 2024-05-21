@@ -1,0 +1,106 @@
+body{
+    font-family: "Alegreya";
+}
+
+
+
+
+
+
+header{
+    background-image: linear-gradient(#000a,rgba(0, 0, 0, 0.247)), url(../IMAGE/home.jpg);;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+header_2{
+    background-image: linear-gradient(#000a,rgba(0, 0, 0, 0.247)), url(../IMAGE/home.jpg);;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.249);
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(177, 177, 177, 0.361);
+}
+
+.icons i {
+    color: white;
+}
+
+
+.icons2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(101, 49, 0, 0.516);
+}
+
+
+
+
+
+
+/* style.css */
+
+.navbar-light-theme {
+    background-color: white;
+    color: black;
+}
+
+.navbar-light-theme .nav-link {
+    color: black;
+}
+
+.navbar-light-theme .navbar-brand img {
+    content: url('../IMAGE/bakery-color.png');
+}
+
+.navbar-dark-theme {
+    background-color: transparent;
+    color: white;
+}
+
+.navbar-dark-theme .nav-link {
+    color: white;
+}
+
+.navbar-dark-theme .navbar-brand img {
+    content: url('../IMAGE/bakery-light-1.png');
+}
